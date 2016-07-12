@@ -9,7 +9,7 @@ public class GuessorFactory {
 	
 	public static List<Guessor<String,?>> getStringInputGuessors(){
 		List<Guessor<String, ?>> guessors = new ArrayList<>();
-		guessors.add(new QuantityGuessor());
+		guessors.add(new UnitsGuessor());
 		return guessors;
 	}
 

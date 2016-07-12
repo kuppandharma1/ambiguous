@@ -11,4 +11,8 @@ public class GuessedData<I, O>{
 		this.input = input;
 		this.output = output;
 	}
+	
+	public String toString(){
+		return "(" + confidence + ", " + input + ", " + output +" )"; 
+	}
 }
