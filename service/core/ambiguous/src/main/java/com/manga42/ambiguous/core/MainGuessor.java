@@ -25,7 +25,7 @@ public class MainGuessor {
 		List<GuessedData<?, ?>> result = guessors.stream().map((x) -> x.nextGuess()).collect(Collectors.toList());
 
 		StringBuffer buff = new StringBuffer();
-		result.stream().forEach((d) -> buff.append(d.output.toString()));
+		result.stream().forEach((d) -> buff.append(d.output.toString()+ " "));
 		return buff.toString();
 	}
 
