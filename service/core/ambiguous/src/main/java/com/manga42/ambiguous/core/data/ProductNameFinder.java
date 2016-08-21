@@ -10,6 +10,8 @@ public class ProductNameFinder {
 	
 	static {
 		names.put("rice", "RICE");
+		names.put("sugar", "SUGAR");
+		names.put("pepper", "PEPPER");
 	}
 	
 	public static String getIfProductName(String name){

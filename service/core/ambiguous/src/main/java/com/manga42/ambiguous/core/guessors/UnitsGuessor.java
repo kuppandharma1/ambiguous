@@ -35,7 +35,7 @@ public class UnitsGuessor implements Guessor<String, QuantityData>{
 		}
 		
 		if(qData.unit == Units.GRAMS){
-			if(quantity >= 50.0 && quantity < 10000.0){
+			if(quantity >= 50.0 && quantity <= 25000.0){
 				confidence = 100.0;
 			}else{
 				confidence = 50.0;

@@ -13,6 +13,7 @@ public class CategoryFinder {
 		categories.put("basmathi", new Category("BASMATHI", BrandFinder.getIfBrand("double deer")));
 		categories.put("boiled", new Category("BOILED", "KRISHNA PONNI"));
 		categories.put("raw", new Category("RAW", "PONNI"));
+		categories.put("refined", new Category("REFINED", "PARRYS"));
 	}
 	
 	public static Category getIfCategory(String category){

@@ -9,6 +9,8 @@ public class BrandFinder {
 	
 	static {
 		brands.put("double deer", "DOUBLE_DEER");
+		brands.put("indiagate", "INDIA_GATE");
+		brands.put("parrys", "PARRYS");
 	}
 	
 	public static String getIfBrand(String brand){
